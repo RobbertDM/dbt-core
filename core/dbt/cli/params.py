@@ -386,6 +386,7 @@ version = click.option(
     "--version",
     callback=version_callback,
     envvar=None,
+    expose_value=False,
     help="Show version information",
     is_eager=True,
     is_flag=True,
